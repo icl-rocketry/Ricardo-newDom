@@ -5158,7 +5158,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PXP01230QLJ"
+		(property "Footprint" "iclr:PXP01230QLJ"
 			(at 96.52 88.9 0)
 			(effects
 				(font
@@ -5620,7 +5620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SiC437BEDT1GE3"
+		(property "Footprint" "iclr:SiC437BEDT1GE3"
 			(at 187.96 35.56 0)
 			(effects
 				(font
@@ -6472,7 +6472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PXP01230QLJ"
+		(property "Footprint" "iclr:PXP01230QLJ"
 			(at 81.28 21.59 0)
 			(effects
 				(font
