@@ -2582,6 +2582,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 77.47) (xy 194.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b33f58-2b6a-4d4e-a6a0-6cae4b5272f1")
+	)
+	(wire
+		(pts
 			(xy 73.66 134.62) (xy 77.47 134.62)
 		)
 		(stroke
@@ -2782,16 +2792,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 77.47) (xy 213.36 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6abc1c4-0bc0-43ef-91f4-3ad2ef26b5c6")
-	)
-	(wire
-		(pts
 			(xy 177.8 67.31) (xy 179.07 67.31)
 		)
 		(stroke
@@ -2912,16 +2912,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 80.01) (xy 213.36 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0b5a0bf-4e95-4d2d-8fe4-0439bf2fd3f4")
-	)
-	(wire
-		(pts
 			(xy 73.66 104.14) (xy 77.47 104.14)
 		)
 		(stroke
@@ -2970,17 +2960,6 @@
 		)
 		(uuid "facef968-a8ee-4c94-bceb-b420dea8c7f4")
 	)
-	(label "ID_SCL_EEPROM"
-		(at 196.85 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "09fd6ac8-fef7-404f-879c-97844b4ef530")
-	)
 	(label "+BATTV"
 		(at 44.45 127 180)
 		(fields_autoplaced yes)
@@ -2991,17 +2970,6 @@
 			(justify right bottom)
 		)
 		(uuid "1212eb73-1af1-4f46-a108-0efb6f401f5e")
-	)
-	(label "ID_SDA_EEPROM"
-		(at 196.85 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22714c92-2b7f-4317-940b-85976a903b12")
 	)
 	(label "Step1"
 		(at 151.13 105.41 180)

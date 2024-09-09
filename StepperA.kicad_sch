@@ -1893,7 +1893,7 @@
 		)
 		(uuid "6d4436f2-18b1-44b2-acd9-8e2230b8e66f")
 	)
-	(hierarchical_label "M2A"
+	(hierarchical_label "MA2"
 		(shape input)
 		(at 172.72 90.17 0)
 		(fields_autoplaced yes)
@@ -1905,7 +1905,7 @@
 		)
 		(uuid "7913e1bf-40ee-46e7-9b51-19eaaf359e8c")
 	)
-	(hierarchical_label "M1A"
+	(hierarchical_label "MA1"
 		(shape input)
 		(at 160.02 62.23 0)
 		(fields_autoplaced yes)
@@ -1917,7 +1917,7 @@
 		)
 		(uuid "7e4b4357-427c-4101-95ed-c6cf62e64f8b")
 	)
-	(hierarchical_label "M1B"
+	(hierarchical_label "MB1"
 		(shape input)
 		(at 173.99 54.61 0)
 		(fields_autoplaced yes)
@@ -1929,7 +1929,7 @@
 		)
 		(uuid "a0c3b554-6bbb-4948-89bc-1bbc237bbba4")
 	)
-	(hierarchical_label "M2B"
+	(hierarchical_label "MB2"
 		(shape input)
 		(at 160.02 97.79 0)
 		(fields_autoplaced yes)
@@ -1993,7 +1993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.19 83.82 0)
 			(effects
 				(font
@@ -2067,7 +2067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.19 48.26 0)
 			(effects
 				(font
@@ -2272,7 +2272,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "28V"
+		(property "Value" "27V"
 			(at 172.72 59.6899 90)
 			(effects
 				(font
@@ -2346,7 +2346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "28V"
+		(property "Value" "27V"
 			(at 154.94 102.8699 90)
 			(effects
 				(font
@@ -2420,7 +2420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "28V"
+		(property "Value" "27V"
 			(at 171.45 95.2499 90)
 			(effects
 				(font
@@ -2692,7 +2692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.19 104.14 0)
 			(effects
 				(font
@@ -2757,7 +2757,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "28V"
+		(property "Value" "27V"
 			(at 157.48 67.3099 90)
 			(effects
 				(font
@@ -3695,7 +3695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.19 68.58 0)
 			(effects
 				(font

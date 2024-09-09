@@ -2293,8 +2293,72 @@
 		(uuid "ff69fad2-9d5f-431a-9776-1bc9a0d5f79f")
 	)
 	(no_connect
+		(at 85.09 31.75)
+		(uuid "01bff783-6499-43b1-a9a1-e4bffbfeda01")
+	)
+	(no_connect
+		(at 59.69 29.21)
+		(uuid "137f1f9c-6e57-4e6b-a08d-f5ddbf5ab59f")
+	)
+	(no_connect
+		(at 74.93 83.82)
+		(uuid "2096978e-18e8-48d9-9a11-95f319a543ed")
+	)
+	(no_connect
+		(at 191.77 53.34)
+		(uuid "3344186b-eb8c-4412-870e-fab234cc6739")
+	)
+	(no_connect
+		(at 191.77 63.5)
+		(uuid "33908a3d-5861-49d1-b1ce-03ec550f1bcd")
+	)
+	(no_connect
 		(at 35.56 88.9)
 		(uuid "3758f013-e841-436a-9ec3-56171707ec9f")
+	)
+	(no_connect
+		(at 156.21 60.96)
+		(uuid "3ebe0781-e118-4736-a991-5a20334a38d3")
+	)
+	(no_connect
+		(at 156.21 63.5)
+		(uuid "46bdf598-1d45-494c-8295-6478e75a65f8")
+	)
+	(no_connect
+		(at 59.69 26.67)
+		(uuid "52e847c0-4c64-4524-ab4e-340ad49ea090")
+	)
+	(no_connect
+		(at 100.33 86.36)
+		(uuid "60a2e047-7440-4f67-94b3-d468c638325e")
+	)
+	(no_connect
+		(at 100.33 78.74)
+		(uuid "6a25e92f-a9cf-4416-ad12-7419e1591741")
+	)
+	(no_connect
+		(at 191.77 68.58)
+		(uuid "7fc4f1e1-c0e2-4783-9f8a-54a9eeed4d69")
+	)
+	(no_connect
+		(at 74.93 81.28)
+		(uuid "95acdf73-62b8-4c9b-9524-407dd28debbc")
+	)
+	(no_connect
+		(at 85.09 26.67)
+		(uuid "a01b7791-3407-47dc-a90e-e451cfdcc428")
+	)
+	(no_connect
+		(at 85.09 24.13)
+		(uuid "d2e97b42-3947-45a3-9b3f-d5892f9cd11c")
+	)
+	(no_connect
+		(at 59.69 34.29)
+		(uuid "f8a409d7-57ee-4bd6-8c54-6320a1fff12f")
+	)
+	(no_connect
+		(at 100.33 83.82)
+		(uuid "faa44516-5cf3-4591-b716-fc6f99acab03")
 	)
 	(wire
 		(pts
@@ -2565,6 +2629,16 @@
 			(type default)
 		)
 		(uuid "3041185b-cab7-440b-a7f8-605c2d7785e0")
+	)
+	(wire
+		(pts
+			(xy 232.41 43.18) (xy 232.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f0b8c9-0250-4748-8279-1db39ccc6abd")
 	)
 	(wire
 		(pts
@@ -3928,7 +4002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.4"
 			(at 240.03 86.36 0)
 			(effects
 				(font
@@ -4480,7 +4554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 234.95 68.58 0)
 			(effects
 				(font
@@ -4547,7 +4621,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.67 93.98 0)
 			(effects
 				(font
@@ -5088,7 +5162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 185.42 87.63 0)
 			(effects
 				(font
@@ -5342,7 +5416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 125.73 54.61 0)
 			(effects
 				(font
@@ -5412,7 +5486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 134.62 54.61 0)
 			(effects
 				(font
@@ -5482,7 +5556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 207.01 87.63 0)
 			(effects
 				(font
@@ -5552,7 +5626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 232.41 36.83 0)
 			(effects
 				(font
@@ -6065,7 +6139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 217.17 87.63 0)
 			(effects
 				(font
@@ -6202,7 +6276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 196.85 87.63 0)
 			(effects
 				(font
@@ -6656,7 +6730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 44.45 90.17 0)
 			(effects
 				(font
@@ -6766,7 +6840,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 40.64 0)
+		(at 232.41 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6775,7 +6849,7 @@
 		(fields_autoplaced yes)
 		(uuid "eebb067b-1517-487c-9b4e-9b4a6a30eea7")
 		(property "Reference" "#PWR06"
-			(at 232.41 46.99 0)
+			(at 232.41 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6784,7 +6858,7 @@
 			)
 		)
 		(property "Value" "A_GND"
-			(at 232.41 45.72 0)
+			(at 232.41 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6792,7 +6866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 40.64 0)
+			(at 232.41 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6801,7 +6875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 40.64 0)
+			(at 232.41 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,7 +6884,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 40.64 0)
+			(at 232.41 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6858,7 +6932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 147.32 33.02 0)
 			(effects
 				(font
@@ -6928,7 +7002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 252.73 86.36 0)
 			(effects
 				(font
