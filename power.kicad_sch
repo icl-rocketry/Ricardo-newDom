@@ -3796,7 +3796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 224.79 40.64 0)
 			(effects
 				(font
@@ -4201,7 +4201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -4334,7 +4334,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 173.99 83.82 0)
 			(effects
 				(font
@@ -4814,7 +4814,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "73.1kΩ"
+		(property "Value" "73.2kΩ"
 			(at 219.71 49.5299 0)
 			(effects
 				(font
@@ -4823,7 +4823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "iclr:ERJHP6D1000V"
 			(at 217.17 48.26 0)
 			(effects
 				(font
@@ -6206,7 +6206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 201.93 50.8 0)
 			(effects
 				(font
@@ -6410,7 +6410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 			(at 201.93 48.26 0)
 			(effects
 				(font
@@ -6478,7 +6478,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "iclr:SDR1307A101K"
 			(at 233.68 83.82 0)
 			(effects
 				(font

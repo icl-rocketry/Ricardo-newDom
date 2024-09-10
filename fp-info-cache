@@ -1,4 +1,4 @@
-23931575818119220
+23941933564189976
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96754,6 +96754,20 @@ DPAK228P990X239-4N
 3
 3
 iclr
+ERJHP6D1000V
+ERJHP6
+Resistor
+0
+2
+2
+iclr
+ETQP4M101KVC
+
+
+0
+0
+0
+iclr
 EXL1V07053R3R
 EXL1V0705-3R3-R-1
 Inductor
@@ -96818,6 +96832,13 @@ Inductor
 2
 iclr
 IND_ETQP5M330YFM
+
+
+0
+2
+2
+iclr
+IND_FDSD0630-H-1R0M=P3
 
 
 0
@@ -97083,6 +97104,13 @@ Schottky Diode
 2
 2
 iclr
+SDR1307A101K
+SDR1307A-101K-2
+Inductor
+0
+2
+2
+iclr
 SER2011202MLD
 SER2011-202MLD-1
 Inductor
@@ -97306,6 +97334,20 @@ USB C Type-C Receptacle USB2.0
 0
 20
 17
+iclr
+V8PAM10SM3I
+V8PAM10S-M3/I-5
+Schottky Diode
+0
+2
+2
+iclr
+VARC2012X102N
+VC0805
+Varistor
+0
+2
+2
 iclr
 VIA-0.6mm
 
