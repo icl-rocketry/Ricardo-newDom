@@ -457,7 +457,20 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(255, 164, 208)",
+      "/+BATTV": "rgb(51, 140, 255)",
+      "/StepperA/MA1": "rgb(255, 24, 0)",
+      "/StepperA/MA2": "rgb(255, 0, 7)",
+      "/StepperA/MB1": "rgb(255, 0, 0)",
+      "/StepperA/MB2": "rgb(255, 0, 4)",
+      "/StepperB/MA1": "rgb(255, 122, 0)",
+      "/StepperB/MA2": "rgb(255, 122, 0)",
+      "/StepperB/MB1": "rgb(255, 122, 0)",
+      "/StepperB/MB2": "rgb(255, 122, 0)",
+      "A_GND": "rgb(187, 137, 0)",
+      "GND": "rgb(0, 137, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },

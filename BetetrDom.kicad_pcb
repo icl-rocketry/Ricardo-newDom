@@ -223,7 +223,6 @@
 	(net 78 "unconnected-(Q2-S_2-Pad2)")
 	(net 79 "unconnected-(Q2-D_3-Pad7)")
 	(net 80 "Net-(Q2-G)")
-	(net 81 "Net-(J3-+)")
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(layer "F.Cu")
 		(uuid "0080bb01-e84f-4a86-81b3-a334b23b288c")
@@ -1815,7 +1814,7 @@
 	(footprint "Package_TO_SOT_SMD:TSOT-23-6"
 		(layer "F.Cu")
 		(uuid "1c7d6dfd-7bfc-41b6-84b0-982201a0d8c2")
-		(at 223.525 64.35)
+		(at 57.1375 104.05)
 		(descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U2"
@@ -5856,7 +5855,7 @@
 			(at -0.975 1.6)
 			(size 0.4 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 81 "Net-(J3-+)")
+			(net 4 "/+BATTV")
 			(pinfunction "S_1")
 			(pintype "passive")
 			(uuid "b3d60182-719a-4895-9fe4-36abcfd57044")
@@ -8656,7 +8655,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 81 "Net-(J3-+)")
+			(net 4 "/+BATTV")
 			(pintype "passive")
 			(uuid "1a25e8f4-decd-4835-a08f-991867c204e7")
 		)
@@ -12285,7 +12284,7 @@
 			(drill 2.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 81 "Net-(J3-+)")
+			(net 4 "/+BATTV")
 			(pinfunction "+")
 			(pintype "passive")
 			(uuid "fa1fc2a0-dd1e-4c63-bd97-a95e67ece584")
