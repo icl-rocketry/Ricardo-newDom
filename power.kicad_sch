@@ -5,225 +5,6 @@
 	(uuid "e3b794c8-0685-4f0e-9736-21865dd48459")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Barrel_Jack_Switch"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Barrel_Jack_Switch"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Barrel Jack with an internal switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DC power barrel jack connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "BarrelJack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9342 2.54)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9342 2.54)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.286) (xy 1.905 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Barrel_Jack_Switch_1_1"
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1664,6 +1445,149 @@
 				)
 			)
 		)
+		(symbol "ICLR:XT60PW-M"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 5.7234 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "XT60PW-M"
+				(at -5.08 -5.0923 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "AMASS_XT60PW-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "AMASS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "V1.2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "XT60PW-M_0_0"
+				(rectangle
+					(start -5.08 -2.54)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Power_Management:LTC4412xS6"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2221,6 +2145,12 @@
 		(uuid "b391ab3d-8377-4adc-a1ec-554d5084edf7")
 	)
 	(junction
+		(at 44.45 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b574d2ea-4dc5-4f70-a0c4-d82de85b493e")
+	)
+	(junction
 		(at 196.85 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2313,10 +2243,6 @@
 		(uuid "33908a3d-5861-49d1-b1ce-03ec550f1bcd")
 	)
 	(no_connect
-		(at 35.56 88.9)
-		(uuid "3758f013-e841-436a-9ec3-56171707ec9f")
-	)
-	(no_connect
 		(at 156.21 60.96)
 		(uuid "3ebe0781-e118-4736-a991-5a20334a38d3")
 	)
@@ -2382,6 +2308,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 58.42) (xy 44.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079af3f2-0fb7-4f2d-b511-2f18779fecaa")
+	)
+	(wire
+		(pts
 			(xy 67.31 63.5) (xy 73.66 63.5)
 		)
 		(stroke
@@ -2442,6 +2378,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 87.63) (xy 34.29 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ae2892-30cf-4d12-ac07-a557305b935c")
+	)
+	(wire
+		(pts
 			(xy 57.15 71.12) (xy 57.15 72.39)
 		)
 		(stroke
@@ -2462,6 +2408,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 90.17) (xy 34.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127ea317-13c1-46f5-ad5f-22da3d5247fc")
+	)
+	(wire
+		(pts
 			(xy 217.17 85.09) (xy 217.17 83.82)
 		)
 		(stroke
@@ -2469,16 +2425,6 @@
 			(type default)
 		)
 		(uuid "148509a7-1737-4aaf-b44d-bc2d92901144")
-	)
-	(wire
-		(pts
-			(xy 46.99 63.5) (xy 45.72 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18a1f49f-dbf0-4812-b1c2-92ac457d6894")
 	)
 	(wire
 		(pts
@@ -2499,16 +2445,6 @@
 			(type default)
 		)
 		(uuid "1d7aafb1-9c10-414e-89a5-f1429803503c")
-	)
-	(wire
-		(pts
-			(xy 35.56 91.44) (xy 38.1 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1db32f78-a798-43fd-ad1f-9c0b7529fc45")
 	)
 	(wire
 		(pts
@@ -2682,7 +2618,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 63.5) (xy 45.72 72.39)
+			(xy 46.99 63.5) (xy 46.99 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2739,16 +2675,6 @@
 			(type default)
 		)
 		(uuid "46f19d0a-04d0-4da5-a55e-cf5c52c238b6")
-	)
-	(wire
-		(pts
-			(xy 44.45 58.42) (xy 46.99 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c452b84-3f10-45b5-b479-8ac1192ec3ce")
 	)
 	(wire
 		(pts
@@ -2809,6 +2735,16 @@
 			(type default)
 		)
 		(uuid "54c57477-e235-457f-9fc4-a7351434ec0f")
+	)
+	(wire
+		(pts
+			(xy 34.29 86.36) (xy 44.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564604e9-2447-44bf-84a4-14feda44af04")
 	)
 	(wire
 		(pts
@@ -2912,6 +2848,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 58.42) (xy 46.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74929c08-6b95-47ac-9758-9700b052c5f5")
+	)
+	(wire
+		(pts
 			(xy 87.63 40.64) (xy 101.6 40.64)
 		)
 		(stroke
@@ -2922,7 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 72.39) (xy 57.15 72.39)
+			(xy 46.99 72.39) (xy 57.15 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3119,16 +3065,6 @@
 			(type default)
 		)
 		(uuid "ab76338f-f650-4550-9c7e-f8ffe8cb5ad1")
-	)
-	(wire
-		(pts
-			(xy 35.56 86.36) (xy 44.45 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acfa5714-5af3-4878-9f7f-06418a328e0f")
 	)
 	(wire
 		(pts
@@ -3469,6 +3405,16 @@
 			(type default)
 		)
 		(uuid "ee87ae42-06f4-445b-a039-116f47f65f01")
+	)
+	(wire
+		(pts
+			(xy 34.29 91.44) (xy 38.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb116a0-c888-4316-9dba-14d0a6363c5f")
 	)
 	(wire
 		(pts
@@ -4999,76 +4945,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 27.94 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a9a6237-0392-4754-aac8-c36f04d8d7f3")
-		(property "Reference" "J4"
-			(at 27.94 81.3902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack_Switch"
-			(at 27.94 83.9271 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002"
-			(at 29.21 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3459ddda-54b1-44d7-88c5-d7ba49aafae3")
-		)
-		(pin "2"
-			(uuid "7f96ffa2-c6ab-415c-8737-9ac1c04d6636")
-		)
-		(pin "3"
-			(uuid "7f1ae7a8-a6dc-4077-9877-5ecd30260155")
-		)
-		(instances
-			(project "BetetrDom"
-				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/837d0d5a-cb41-4001-b9fc-855d4a9018ff"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 110.49 58.42 0)
 		(unit 1)
@@ -6176,6 +6052,115 @@
 			(project ""
 				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/837d0d5a-cb41-4001-b9fc-855d4a9018ff"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ICLR:XT60PW-M")
+		(at 24.13 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6121ad8-1ea8-41d4-a298-7fe4f0b53de3")
+		(property "Reference" "J3"
+			(at 24.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 24.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "iclr:AMASS_XT60PW-M"
+			(at 24.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 24.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 24.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V1.2"
+			(at 24.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+			(at 24.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b8f929e-0963-453c-83c0-9ebfc3ccf8b3")
+		)
+		(pin "2"
+			(uuid "4bd75c6b-9ce0-4ae3-8fce-13b3831d5537")
+		)
+		(instances
+			(project "BetetrDom"
+				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/837d0d5a-cb41-4001-b9fc-855d4a9018ff"
+					(reference "J3")
 					(unit 1)
 				)
 			)
