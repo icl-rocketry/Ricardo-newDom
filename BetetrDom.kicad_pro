@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [],
@@ -468,6 +468,7 @@
       "/StepperB/MA2": "rgb(255, 122, 0)",
       "/StepperB/MB1": "rgb(255, 122, 0)",
       "/StepperB/MB2": "rgb(255, 122, 0)",
+      "/power/+BATTV": "rgb(51, 140, 255)",
       "A_GND": "rgb(187, 137, 0)",
       "GND": "rgb(0, 137, 0)"
     },
