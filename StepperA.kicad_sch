@@ -140,23 +140,22 @@
 				)
 			)
 		)
-		(symbol "Device:D_Zener"
-			(pin_numbers hide)
+		(symbol "Device:D_Zener_Dual_CommonAnode_KKA"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0.762) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 1.27 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
+			(property "Value" "D_Zener_Dual_CommonAnode_KKA"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -181,7 +180,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Zener diode"
+			(property "Description" "Dual Zener diode, common anode on pin 3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -190,7 +189,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode zener dual"
 				(at 0 0 0)
 				(effects
 					(font
@@ -199,7 +198,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(property "ki_fp_filters" "SOT* SC*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -208,10 +207,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Zener_0_1"
+			(symbol "D_Zener_Dual_CommonAnode_KKA_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -3.556 0) (xy 3.81 0)
 					)
 					(stroke
 						(width 0)
@@ -223,7 +222,19 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.302 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -235,7 +246,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy 3.302 -1.27) (xy 3.81 -1.27) (xy 3.81 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -245,11 +256,44 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "D_Zener_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -3.81 0) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
+					(at -7.62 0 0)
+					(length 3.81)
 					(name "K"
 						(effects
 							(font
@@ -266,7 +310,25 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -275,7 +337,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1118,6 +1180,12 @@
 		(uuid "39ed4300-f5df-44f4-b9aa-b00926d1b4ee")
 	)
 	(junction
+		(at 152.4 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4017d947-70b0-4b1f-a4a0-97711369e462")
+	)
+	(junction
 		(at 91.44 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1160,16 +1228,16 @@
 		(uuid "75792df4-af0d-43c4-b8d7-7b17e217b7fa")
 	)
 	(junction
-		(at 168.91 90.17)
+		(at 171.45 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "76644010-345a-472d-87cd-d0e42fd8a2d7")
+		(uuid "86aea302-6261-4d25-914a-730aad54f1a4")
 	)
 	(junction
-		(at 152.4 97.79)
+		(at 154.94 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "950346ce-dd7b-470d-82c7-0942f84519e4")
+		(uuid "a1595b0d-282c-435f-b6a4-90b05cd7b794")
 	)
 	(junction
 		(at 135.89 62.23)
@@ -1196,18 +1264,6 @@
 		(uuid "c0b7e352-18db-499d-b15d-b419a5df2b04")
 	)
 	(junction
-		(at 154.94 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdfff152-19c3-46d1-b2fa-0194a02d20df")
-	)
-	(junction
-		(at 170.18 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0f804a5-77d0-478f-bff7-c438dbfac514")
-	)
-	(junction
 		(at 78.74 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1218,6 +1274,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "effc72d1-b8d6-42a9-bd78-25e98b6c3af2")
+	)
+	(no_connect
+		(at 176.53 62.23)
+		(uuid "07fe8c87-06c2-4ee5-97ab-6ee96d3d2cd6")
+	)
+	(no_connect
+		(at 173.99 97.79)
+		(uuid "25ec0eeb-a4fb-4ef3-a11e-60ae68c48e5a")
+	)
+	(no_connect
+		(at 149.86 69.85)
+		(uuid "6af61d4f-af48-4105-a142-10a27479ed56")
+	)
+	(no_connect
+		(at 147.32 105.41)
+		(uuid "96a57ed6-21c8-44e9-a9cd-d0d832094d99")
 	)
 	(wire
 		(pts
@@ -1461,7 +1533,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 54.61) (xy 170.18 54.61)
+			(xy 135.89 54.61) (xy 171.45 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1488,16 +1560,6 @@
 			(type default)
 		)
 		(uuid "75c999f5-86dc-4a3d-aa5f-492a48283662")
-	)
-	(wire
-		(pts
-			(xy 170.18 54.61) (xy 173.99 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "767dc8a3-3202-42f0-98b5-140acf9f1bc5")
 	)
 	(wire
 		(pts
@@ -1528,16 +1590,6 @@
 			(type default)
 		)
 		(uuid "7b5503aa-7f94-4903-9ba5-3e5b407d8749")
-	)
-	(wire
-		(pts
-			(xy 168.91 90.17) (xy 172.72 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ec7d529-16e3-4bd4-a165-02e1ca65f58f")
 	)
 	(wire
 		(pts
@@ -1621,7 +1673,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 97.79) (xy 160.02 97.79)
+			(xy 135.89 97.79) (xy 152.4 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1737,7 +1789,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cca8b4f1-33ff-4e8e-940b-a6474d9dbf16")
+		(uuid "cc47b30b-cb05-45c2-a52a-3df120cd0f22")
 	)
 	(wire
 		(pts
@@ -1811,6 +1863,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 97.79) (xy 160.02 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df13275e-9af1-4068-ba4a-896cb0f65a51")
+	)
+	(wire
+		(pts
 			(xy 107.95 76.2) (xy 106.68 76.2)
 		)
 		(stroke
@@ -1831,6 +1893,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 54.61) (xy 173.99 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59f1819-50f0-42e1-89b7-e068c73fe018")
+	)
+	(wire
+		(pts
 			(xy 135.89 54.61) (xy 123.19 54.61)
 		)
 		(stroke
@@ -1838,16 +1910,6 @@
 			(type default)
 		)
 		(uuid "eff3f95a-1ddd-4df7-b1fb-dadcfda3c4d2")
-	)
-	(wire
-		(pts
-			(xy 135.89 97.79) (xy 152.4 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f53d1091-7ad7-4979-893d-502230d790ab")
 	)
 	(wire
 		(pts
@@ -1959,7 +2021,7 @@
 	)
 	(hierarchical_label "MB1"
 		(shape input)
-		(at 172.72 90.17 0)
+		(at 168.91 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2178,6 +2240,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener_Dual_CommonAnode_KKA")
+		(at 152.4 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e5d08ee-cf0c-4df2-9d04-87a958f59106")
+		(property "Reference" "D4"
+			(at 154.94 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener_Dual_CommonAnode_KKA"
+			(at 154.94 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Zener diode, common anode on pin 3"
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e24539c2-9eab-433a-b2c5-ea0d5eb2a0b9")
+		)
+		(pin "3"
+			(uuid "fd57801b-ef8a-4af3-a606-76edf9814ccb")
+		)
+		(pin "2"
+			(uuid "3d899c28-e21e-444f-9e17-2383f5c9086a")
+		)
+		(instances
+			(project "BetetrDom"
+				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/41c4018d-2493-4bc2-8f12-9d4d52259c77"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/9ba0db54-2501-4543-abeb-266bbe6a504c"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 93.98 0)
 		(unit 1)
@@ -2318,17 +2457,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 170.18 58.42 270)
+		(lib_id "Device:D_Zener_Dual_CommonAnode_KKA")
+		(at 154.94 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "25b1a818-9bc0-46e8-8694-3c54e96aa45b")
-		(property "Reference" "D7"
-			(at 172.72 57.1499 90)
+		(uuid "2a864749-a196-4bfd-894b-a75bb3009f98")
+		(property "Reference" "D2"
+			(at 157.48 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,8 +2475,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27V"
-			(at 172.72 59.6899 90)
+		(property "Value" "D_Zener_Dual_CommonAnode_KKA"
+			(at 157.48 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,8 +2484,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 170.18 58.42 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+			(at 154.94 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2355,7 +2494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 58.42 0)
+			(at 154.94 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,177 +2502,32 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Zener diode"
-			(at 170.18 58.42 0)
+		(property "Description" "Dual Zener diode, common anode on pin 3"
+			(at 154.94 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "974e64aa-45b8-4b65-b555-0abfceb7bab9")
 		)
 		(pin "1"
-			(uuid "6c625310-af7b-491b-aee6-d30263dd5b88")
+			(uuid "9c1678fa-f539-4e94-98e6-f81411770b0f")
+		)
+		(pin "3"
+			(uuid "13c9e4e9-62bf-4b79-bc4f-0b8441cf7ee9")
+		)
+		(pin "2"
+			(uuid "98537ed9-54d9-4c41-a558-2bd72a389c75")
 		)
 		(instances
 			(project "BetetrDom"
 				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/41c4018d-2493-4bc2-8f12-9d4d52259c77"
-					(reference "D7")
-					(unit 1)
-				)
-				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/9ba0db54-2501-4543-abeb-266bbe6a504c"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 152.4 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26345e3f-f4f2-4057-960e-de8eb0c8d9f0")
-		(property "Reference" "D1"
-			(at 154.94 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27V"
-			(at 154.94 102.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "99ad7688-f093-423c-941d-ea73f7d9ce40")
-		)
-		(pin "1"
-			(uuid "d1fd8fe1-5ff0-4f03-91fd-81314cceb9fd")
-		)
-		(instances
-			(project ""
-				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/41c4018d-2493-4bc2-8f12-9d4d52259c77"
-					(reference "D1")
-					(unit 1)
-				)
-				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/9ba0db54-2501-4543-abeb-266bbe6a504c"
 					(reference "D2")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 168.91 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d02d074-bb02-444d-9dea-fa9b01a977f8")
-		(property "Reference" "D3"
-			(at 171.45 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27V"
-			(at 171.45 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 168.91 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 168.91 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2350493b-97f3-463e-9d95-67a02eecc9f7")
-		)
-		(pin "1"
-			(uuid "06a48514-6d19-475e-b723-fcc69925ea41")
-		)
-		(instances
-			(project "BetetrDom"
-				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/41c4018d-2493-4bc2-8f12-9d4d52259c77"
-					(reference "D3")
-					(unit 1)
-				)
 				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/9ba0db54-2501-4543-abeb-266bbe6a504c"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2803,82 +2797,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 154.94 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63b71952-15ee-42e7-9890-3d96d499fb6a")
-		(property "Reference" "D5"
-			(at 157.48 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27V"
-			(at 157.48 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 154.94 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 154.94 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2f14ae16-fee4-4a9d-b4b9-1317f783c873")
-		)
-		(pin "1"
-			(uuid "ac962cbd-3c23-43c7-9899-fe7b218ca57f")
-		)
-		(instances
-			(project "BetetrDom"
-				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/41c4018d-2493-4bc2-8f12-9d4d52259c77"
-					(reference "D5")
-					(unit 1)
-				)
-				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/9ba0db54-2501-4543-abeb-266bbe6a504c"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 170.18 62.23 0)
+		(at 171.45 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2887,7 +2807,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b48f1ba-d476-45c4-9a9c-4c50d629691c")
 		(property "Reference" "#PWR033"
-			(at 170.18 68.58 0)
+			(at 171.45 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,7 +2816,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 67.31 0)
+			(at 171.45 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 62.23 0)
+			(at 171.45 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +2833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 62.23 0)
+			(at 171.45 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,7 +2842,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 62.23 0)
+			(at 171.45 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +3081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "iclr:IND_FDSD0630-H-1R0M=P3"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 115.57 90.17 0)
 			(effects
 				(font
@@ -3352,7 +3272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "iclr:IND_FDSD0630-H-1R0M=P3"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 115.57 54.61 0)
 			(effects
 				(font
@@ -3424,7 +3344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "iclr:IND_FDSD0630-H-1R0M=P3"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 115.57 97.79 0)
 			(effects
 				(font
@@ -3465,6 +3385,83 @@
 				)
 				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/9ba0db54-2501-4543-abeb-266bbe6a504c"
 					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Dual_CommonAnode_KKA")
+		(at 168.91 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a00949e7-4179-4930-bc6a-6d9b764aeb4c")
+		(property "Reference" "D3"
+			(at 166.37 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener_Dual_CommonAnode_KKA"
+			(at 166.37 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Zener diode, common anode on pin 3"
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a56be00-cd38-46e3-9ee1-a3d4728e50c5")
+		)
+		(pin "3"
+			(uuid "af6da55d-d778-4abe-8a57-356b6b068172")
+		)
+		(pin "2"
+			(uuid "b0472553-d3df-4661-ae4f-89c9e56ba7fd")
+		)
+		(instances
+			(project "BetetrDom"
+				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/41c4018d-2493-4bc2-8f12-9d4d52259c77"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/9ba0db54-2501-4543-abeb-266bbe6a504c"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3615,7 +3612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "iclr:IND_FDSD0630-H-1R0M=P3"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 115.57 62.23 0)
 			(effects
 				(font
@@ -3732,6 +3729,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener_Dual_CommonAnode_KKA")
+		(at 171.45 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c243b393-3dbd-425f-9b71-8468d44edb21")
+		(property "Reference" "D1"
+			(at 168.91 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener_Dual_CommonAnode_KKA"
+			(at 209.296 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+			(at 171.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Zener diode, common anode on pin 3"
+			(at 171.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22fe1686-fa70-4904-897d-97ca18e35ea7")
+		)
+		(pin "3"
+			(uuid "17b2aff7-6e03-46a2-9814-4de9844c6627")
+		)
+		(pin "2"
+			(uuid "07bdccca-b28c-4d5b-9c84-c895b95028e5")
+		)
+		(instances
+			(project ""
+				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/41c4018d-2493-4bc2-8f12-9d4d52259c77"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/9ba0db54-2501-4543-abeb-266bbe6a504c"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 123.19 68.58 0)
 		(unit 1)
@@ -3807,7 +3880,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 69.85 0)
+		(at 154.94 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3816,7 +3889,7 @@
 		(fields_autoplaced yes)
 		(uuid "d55ae49c-7ab8-4b6c-97e7-ac4e65c4a735")
 		(property "Reference" "#PWR010"
-			(at 154.94 76.2 0)
+			(at 154.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3825,7 +3898,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 74.93 0)
+			(at 154.94 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +3906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 69.85 0)
+			(at 154.94 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 69.85 0)
+			(at 154.94 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +3924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 69.85 0)
+			(at 154.94 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +3950,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 105.41 0)
+		(at 152.4 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3886,7 +3959,7 @@
 		(fields_autoplaced yes)
 		(uuid "df1a3274-12ed-4292-90cb-e97667b085a3")
 		(property "Reference" "#PWR037"
-			(at 152.4 111.76 0)
+			(at 152.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +3968,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 110.49 0)
+			(at 152.4 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +3976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 105.41 0)
+			(at 152.4 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 105.41 0)
+			(at 152.4 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,7 +3994,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 105.41 0)
+			(at 152.4 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,7 +4325,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 97.79 0)
+		(at 168.91 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4261,7 +4334,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7e1100c-8acf-4452-b7d0-935f1ae058ed")
 		(property "Reference" "#PWR035"
-			(at 168.91 104.14 0)
+			(at 168.91 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +4343,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 102.87 0)
+			(at 168.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +4351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 97.79 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +4360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 97.79 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4296,7 +4369,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 97.79 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
