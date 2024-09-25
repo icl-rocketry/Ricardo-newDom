@@ -3073,7 +3073,7 @@
 				)
 			)
 		)
-		(property "Value" "80nH"
+		(property "Value" "4.7uH"
 			(at 115.57 87.63 90)
 			(effects
 				(font
@@ -3081,7 +3081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "iclr:MPLAL60504R7"
 			(at 115.57 90.17 0)
 			(effects
 				(font
@@ -3264,7 +3264,7 @@
 				)
 			)
 		)
-		(property "Value" "80nH"
+		(property "Value" "4.7uH"
 			(at 115.57 52.07 90)
 			(effects
 				(font
@@ -3272,7 +3272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "iclr:MPLAL60504R7"
 			(at 115.57 54.61 0)
 			(effects
 				(font
@@ -3336,7 +3336,7 @@
 				)
 			)
 		)
-		(property "Value" "80nH"
+		(property "Value" "4.7uH"
 			(at 115.57 95.25 90)
 			(effects
 				(font
@@ -3344,7 +3344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "iclr:MPLAL60504R7"
 			(at 115.57 97.79 0)
 			(effects
 				(font
@@ -3604,7 +3604,7 @@
 				)
 			)
 		)
-		(property "Value" "80nH"
+		(property "Value" "4.7uH"
 			(at 115.57 59.69 90)
 			(effects
 				(font
@@ -3612,7 +3612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "iclr:MPLAL60504R7"
 			(at 115.57 62.23 0)
 			(effects
 				(font

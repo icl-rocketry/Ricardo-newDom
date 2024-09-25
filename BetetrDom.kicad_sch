@@ -3269,13 +3269,13 @@
 		(uuid "22b01f2e-5f3d-430d-9297-d6e54589cc4f")
 	)
 	(label "Step1"
-		(at 44.45 101.6 0)
+		(at 44.45 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "259dcac2-99f5-4d1a-8641-2344c7c05f56")
 	)
