@@ -419,330 +419,6 @@
 				)
 			)
 		)
-		(symbol "ICLR:PXP012-30QLJ"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PXP012-30QLJ"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PXP01230QLJ"
-				(at 21.59 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PXP012-30QL.pdf"
-				(at 21.59 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-channel enhancement mode Field-Effect Transistor (FET) in an MLPAK33 (SOT8002) Surface-Mounted Device (SMD) plastic package using Trench MOSFET technology."
-				(at 21.59 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.9"
-				(at 21.59 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Nexperia"
-				(at 21.59 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "PXP012-30QLJ"
-				(at 21.59 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "771-PXP012-30QLJ"
-				(at 21.59 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PXP012-30QLJ?qs=MyNHzdoqoQJZrENr6odxAg%3D%3D"
-				(at 21.59 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 21.59 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 21.59 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Testing Part Number" ""
-				(at 21.59 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Testing Price/Stock" ""
-				(at 21.59 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "PXP012-30QLJ_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "S_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "S_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "S_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "D_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "D_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "D_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "D_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name "D_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PXP012-30QLJ_0_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -12.7) (xy 5.08 -12.7) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "ICLR:SiC437BED-T1-GE3"
 			(pin_names
 				(offset 0.762)
@@ -1777,6 +1453,495 @@
 				)
 			)
 		)
+		(symbol "iclr:SQS141ELNW-T1_GE3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at -8.89 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SQS141ELNW-T1_GE3"
+				(at -8.89 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SQS850ENT1_GE3"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.it/ProductDetail/Vishay-Semiconductors/SQS141ELNW-T1_GE3?qs=t7xnP681wgUUJh1P9XVDHQ%3D%3D"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Automotive P-Channel 40 V (D-S) 175 C MOSFET"
+				(at -0.508 -14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.12"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SQS141ELNW-T1_GE3"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "78-SQS141ELNW-T1_GE3"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQS141ELNW-T1_GE3?qs=t7xnP681wgUUJh1P9XVDHQ%3D%3D"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "SQS141ELNW-T1_GE3"
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sqs141elnw-t1-ge3/vishay?region=nac"
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SQS141ELNW-T1_GE3_0_1"
+				(circle
+					(center -1.778 1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -0.508) (xy -1.27 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.016) (xy 1.905 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy 0.508 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.508) (xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 0 1.27) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.508) (xy -1.778 2.032) (xy 1.778 2.032) (xy 1.778 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy -0.381 0) (xy 0.381 0) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 2.032) (xy -0.254 1.651) (xy -0.254 2.413) (xy 0.381 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.524) (xy 0.381 1.651) (xy 0.381 2.413) (xy 0.254 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0.381)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SQS141ELNW-T1_GE3_1_1"
+				(pin passive line
+					(at 5.08 1.27 270)
+					(length 2.54) hide
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 270)
+					(length 2.54) hide
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 1.27 270)
+					(length 2.54) hide
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 270)
+					(length 2.54) hide
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 270)
+					(length 2.54) hide
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 270)
+					(length 2.54) hide
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 270)
+					(length 2.54) hide
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 270)
+					(length 2.54) hide
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2225,16 +2390,8 @@
 		(uuid "137f1f9c-6e57-4e6b-a08d-f5ddbf5ab59f")
 	)
 	(no_connect
-		(at 74.93 83.82)
-		(uuid "2096978e-18e8-48d9-9a11-95f319a543ed")
-	)
-	(no_connect
 		(at 156.21 60.96)
 		(uuid "3ebe0781-e118-4736-a991-5a20334a38d3")
-	)
-	(no_connect
-		(at 74.93 76.2)
-		(uuid "44e5fbeb-eced-41c6-9d52-4804e679739e")
 	)
 	(no_connect
 		(at 156.21 63.5)
@@ -2255,10 +2412,6 @@
 	(no_connect
 		(at 191.77 68.58)
 		(uuid "7fc4f1e1-c0e2-4783-9f8a-54a9eeed4d69")
-	)
-	(no_connect
-		(at 74.93 81.28)
-		(uuid "95acdf73-62b8-4c9b-9524-407dd28debbc")
 	)
 	(no_connect
 		(at 85.09 26.67)
@@ -2288,6 +2441,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 81.28) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "059fd1cc-c1e5-4380-9e94-e17b0adcc20c")
+	)
+	(wire
+		(pts
 			(xy 217.17 40.64) (xy 222.25 40.64)
 		)
 		(stroke
@@ -2295,6 +2458,16 @@
 			(type default)
 		)
 		(uuid "05a20dc8-20bb-4419-b10c-72a2447ab6e9")
+	)
+	(wire
+		(pts
+			(xy 74.93 24.13) (xy 82.55 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061ff3fb-fcbf-4bad-bf39-75be9e5b7356")
 	)
 	(wire
 		(pts
@@ -2308,7 +2481,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 24.13) (xy 59.69 24.13)
+			(xy 44.45 24.13) (xy 64.77 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2428,6 +2601,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 24.13) (xy 82.55 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e43cb23-6aa3-4890-b911-7e8ef79a868c")
+	)
+	(wire
+		(pts
 			(xy 148.59 58.42) (xy 156.21 58.42)
 		)
 		(stroke
@@ -2485,16 +2668,6 @@
 			(type default)
 		)
 		(uuid "25a810cb-77dc-4180-8f5f-5a6cfc6da416")
-	)
-	(wire
-		(pts
-			(xy 85.09 29.21) (xy 87.63 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28147bc5-5912-4116-bac4-73d6fa46e11f")
 	)
 	(wire
 		(pts
@@ -2615,6 +2788,26 @@
 			(type default)
 		)
 		(uuid "3d85f77c-6148-4216-96dc-ecbfc563f9b8")
+	)
+	(wire
+		(pts
+			(xy 91.44 86.36) (xy 96.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef9223e-6d0e-415c-a68a-389196afdf42")
+	)
+	(wire
+		(pts
+			(xy 96.52 86.36) (xy 96.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7b3295-7cd3-4a15-ab54-1c31f8768182")
 	)
 	(wire
 		(pts
@@ -2845,6 +3038,16 @@
 			(type default)
 		)
 		(uuid "7690f816-9de9-47e0-a4b4-c2f2b5ce8948")
+	)
+	(wire
+		(pts
+			(xy 82.55 29.21) (xy 87.63 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b2737d-6226-497d-8d66-7e712332f93c")
 	)
 	(wire
 		(pts
@@ -3118,16 +3321,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 81.28) (xy 101.6 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcf85e4e-76fe-4e86-89b4-88caecda016e")
-	)
-	(wire
-		(pts
 			(xy 110.49 58.42) (xy 110.49 59.69)
 		)
 		(stroke
@@ -3168,7 +3361,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 86.36) (xy 74.93 86.36)
+			(xy 30.48 86.36) (xy 81.28 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3218,7 +3411,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 78.74) (xy 74.93 78.74)
+			(xy 73.66 78.74) (xy 86.36 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3228,7 +3421,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 31.75) (xy 57.15 31.75)
+			(xy 57.15 31.75) (xy 69.85 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3639,6 +3832,17 @@
 			(justify right bottom)
 		)
 		(uuid "9b9dcea1-958c-4128-aacd-a4255c011460")
+	)
+	(label "VIN"
+		(at 132.08 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bd20b3c-30bc-42af-8ea2-6a62dc61fc5e")
 	)
 	(label "BOOT"
 		(at 191.77 55.88 0)
@@ -5081,6 +5285,173 @@
 		)
 	)
 	(symbol
+		(lib_id "iclr:SQS141ELNW-T1_GE3")
+		(at 69.85 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78d10350-b598-49be-be1a-f4291aec63aa")
+		(property "Reference" "Q1"
+			(at 69.85 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SQS141ELNW-T1_GE3"
+			(at 69.85 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SQS850ENT1_GE3"
+			(at 91.44 120.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/ProductDetail/Vishay-Semiconductors/SQS141ELNW-T1_GE3?qs=t7xnP681wgUUJh1P9XVDHQ%3D%3D"
+			(at 91.44 220.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Automotive P-Channel 40 V (D-S) 175 C MOSFET"
+			(at 69.342 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 91.44 420.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 91.44 520.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQS141ELNW-T1_GE3"
+			(at 91.44 620.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SQS141ELNW-T1_GE3"
+			(at 91.44 720.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQS141ELNW-T1_GE3?qs=t7xnP681wgUUJh1P9XVDHQ%3D%3D"
+			(at 91.44 820.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SQS141ELNW-T1_GE3"
+			(at 91.44 920.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sqs141elnw-t1-ge3/vishay?region=nac"
+			(at 91.44 1020.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "5aa02625-f44c-499a-a87c-b36855be6c05")
+		)
+		(pin "5"
+			(uuid "99a0d31f-b36a-4ee3-87be-adb71ae4f326")
+		)
+		(pin "1"
+			(uuid "d3cba928-908b-4deb-8bf7-ce2ca1b3aecb")
+		)
+		(pin "11"
+			(uuid "1e83003c-adbe-486d-af83-ba82323e79d3")
+		)
+		(pin "7"
+			(uuid "a7699035-ab18-4223-99ba-f1e4f19eed6f")
+		)
+		(pin "8"
+			(uuid "10189351-bd22-4e7e-88ea-8ff283e1ea71")
+		)
+		(pin "9"
+			(uuid "7a383b8b-31ee-457b-a778-822e38e99f2e")
+		)
+		(pin "2"
+			(uuid "7f192d70-25a2-4d56-8b7e-b0c4a468b783")
+		)
+		(pin "3"
+			(uuid "5bb792bc-bd46-46ec-99b4-2b9d8c802179")
+		)
+		(pin "4"
+			(uuid "77d50c6f-bc8c-400a-8881-fa32c732f360")
+		)
+		(pin "6"
+			(uuid "050d0891-090a-49fc-9f7f-50713989d5fc")
+		)
+		(instances
+			(project ""
+				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/837d0d5a-cb41-4001-b9fc-855d4a9018ff"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 110.49 58.42 0)
 		(unit 1)
@@ -5211,190 +5582,6 @@
 			(project ""
 				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/837d0d5a-cb41-4001-b9fc-855d4a9018ff"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ICLR:PXP012-30QLJ")
-		(at 74.93 86.36 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88facd5b-2392-4a47-abd3-157eddc0b2dd")
-		(property "Reference" "Q2"
-			(at 95.504 69.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PXP012-30QLJ"
-			(at 95.504 71.882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "iclr:PXP01230QLJ"
-			(at 96.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PXP012-30QL.pdf"
-			(at 96.52 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-channel enhancement mode Field-Effect Transistor (FET) in an MLPAK33 (SOT8002) Surface-Mounted Device (SMD) plastic package using Trench MOSFET technology."
-			(at 96.52 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 96.52 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 96.52 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PXP012-30QLJ"
-			(at 96.52 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-PXP012-30QLJ"
-			(at 96.52 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PXP012-30QLJ?qs=MyNHzdoqoQJZrENr6odxAg%3D%3D"
-			(at 96.52 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 96.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 96.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Testing Part Number" ""
-			(at 96.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Testing Price/Stock" ""
-			(at 96.52 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a44f810e-6bf8-429e-857b-19808f068f3a")
-		)
-		(pin "6"
-			(uuid "948ce2de-3917-4580-8ed7-305b72164646")
-		)
-		(pin "2"
-			(uuid "66abc7ad-18e6-49e6-8113-60a4fbcd88f8")
-		)
-		(pin "5"
-			(uuid "03c5c0b1-6c98-47df-a8e4-51f6d9c78a1c")
-		)
-		(pin "1"
-			(uuid "f91065ee-2aa2-4b6d-90fa-5a2139060175")
-		)
-		(pin "7"
-			(uuid "77d6aa86-c056-45c5-a696-90d0415b7f29")
-		)
-		(pin "8"
-			(uuid "d560e841-884e-4cbb-848f-6e35d7a39e64")
-		)
-		(pin "9"
-			(uuid "867c0a80-e0d7-488f-82cd-0ab776fbc180")
-		)
-		(pin "4"
-			(uuid "1d70693e-471e-4790-8443-616636be932d")
-		)
-		(instances
-			(project "BetetrDom"
-				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/837d0d5a-cb41-4001-b9fc-855d4a9018ff"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5986,6 +6173,173 @@
 			(project "BetetrDom"
 				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/837d0d5a-cb41-4001-b9fc-855d4a9018ff"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "iclr:SQS141ELNW-T1_GE3")
+		(at 86.36 85.09 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abc3e1c6-fc90-40a0-b883-bfd5b88a67df")
+		(property "Reference" "Q2"
+			(at 86.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SQS141ELNW-T1_GE3"
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SQS850ENT1_GE3"
+			(at 107.95 -9.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/ProductDetail/Vishay-Semiconductors/SQS141ELNW-T1_GE3?qs=t7xnP681wgUUJh1P9XVDHQ%3D%3D"
+			(at 107.95 -109.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Automotive P-Channel 40 V (D-S) 175 C MOSFET"
+			(at 85.852 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 107.95 -309.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 107.95 -409.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQS141ELNW-T1_GE3"
+			(at 107.95 -509.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SQS141ELNW-T1_GE3"
+			(at 107.95 -609.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQS141ELNW-T1_GE3?qs=t7xnP681wgUUJh1P9XVDHQ%3D%3D"
+			(at 107.95 -709.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SQS141ELNW-T1_GE3"
+			(at 107.95 -809.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sqs141elnw-t1-ge3/vishay?region=nac"
+			(at 107.95 -909.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43e259d1-6cbf-46fb-9b3e-4713b93ac14b")
+		)
+		(pin "11"
+			(uuid "b6281eaf-b37b-4f4f-bfe7-5658c6c114d2")
+		)
+		(pin "10"
+			(uuid "1faa74c5-6a39-4f06-b437-1b0caddb0f02")
+		)
+		(pin "2"
+			(uuid "c29c15e8-4a4e-447d-9dc9-69f1cb3065ed")
+		)
+		(pin "3"
+			(uuid "f939290d-24d3-4b16-870b-0bad778e80f2")
+		)
+		(pin "4"
+			(uuid "4ff945b5-65d3-4fbf-bead-00173b4c1749")
+		)
+		(pin "5"
+			(uuid "7a99b46a-efeb-49c8-90b3-219843c1b41a")
+		)
+		(pin "6"
+			(uuid "9e9cb022-b9aa-4fee-917f-7acbb0c9caee")
+		)
+		(pin "7"
+			(uuid "ff79bccf-4e90-4032-abf4-e3be812e669a")
+		)
+		(pin "8"
+			(uuid "8cc60136-d419-4025-84ce-d6c2a2d7c313")
+		)
+		(pin "9"
+			(uuid "f49db03f-f8ed-4019-b0a2-c6c3fceeb1ad")
+		)
+		(instances
+			(project ""
+				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/837d0d5a-cb41-4001-b9fc-855d4a9018ff"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -6706,188 +7060,6 @@
 			(project ""
 				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/837d0d5a-cb41-4001-b9fc-855d4a9018ff"
 					(reference "L10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ICLR:PXP012-30QLJ")
-		(at 59.69 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e22ee847-c967-49dc-aa18-02c77586050c")
-		(property "Reference" "Q1"
-			(at 72.39 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PXP012-30QLJ"
-			(at 72.39 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "iclr:PXP01230QLJ"
-			(at 81.28 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PXP012-30QL.pdf"
-			(at 81.28 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-channel enhancement mode Field-Effect Transistor (FET) in an MLPAK33 (SOT8002) Surface-Mounted Device (SMD) plastic package using Trench MOSFET technology."
-			(at 81.28 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 81.28 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 81.28 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PXP012-30QLJ"
-			(at 81.28 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-PXP012-30QLJ"
-			(at 81.28 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PXP012-30QLJ?qs=MyNHzdoqoQJZrENr6odxAg%3D%3D"
-			(at 81.28 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 81.28 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 81.28 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Testing Part Number" ""
-			(at 81.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Testing Price/Stock" ""
-			(at 81.28 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "29e4565d-3634-4fad-9331-c121df568f79")
-		)
-		(pin "6"
-			(uuid "c8d2d7ce-7d81-4c92-b8f4-5de67229a0a8")
-		)
-		(pin "2"
-			(uuid "f4250436-ff2d-444e-8e3a-d179f90be438")
-		)
-		(pin "5"
-			(uuid "02d7c20d-7a21-430e-b6db-81301837f254")
-		)
-		(pin "1"
-			(uuid "8ff3b712-5068-4a08-8b80-28a20eb2c27a")
-		)
-		(pin "7"
-			(uuid "001c66bd-0107-4e88-b17a-0230dcb4f067")
-		)
-		(pin "8"
-			(uuid "1b2e26af-fefc-4e1a-bcd3-a1dc56379b49")
-		)
-		(pin "9"
-			(uuid "4f12120a-69c1-47f6-b1ed-b7dbd33cfbc8")
-		)
-		(pin "4"
-			(uuid "f3badd6f-a9f2-4856-b392-128e2358366c")
-		)
-		(instances
-			(project ""
-				(path "/3d73b00f-865e-402b-88ef-ae22e0a8ba36/837d0d5a-cb41-4001-b9fc-855d4a9018ff"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
