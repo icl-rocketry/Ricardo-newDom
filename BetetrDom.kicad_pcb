@@ -19968,7 +19968,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "d03b432e-fc9e-4fd3-b30d-d230a29258a3")
-		(at 201.1 82)
+		(at 201 82)
 		(descr "Mounting Hole 3.2mm, M3, DIN965")
 		(tags "mounting hole 3.2mm m3 din965")
 		(property "Reference" "H4"
